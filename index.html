@@ -51,7 +51,7 @@
 
 .floating-button {
   position: fixed;
-  bottom: 20px;
+  bottom: 10px;
   right: 20px;
   background-color: #555;
   color: #fff;
@@ -83,7 +83,17 @@ body {
   background: url('stylized_fog_background.jpg') no-repeat center center fixed;
   background-size: cover;
   color: #fff;
-  text-shadow: 0 0 4px rgba(0, 0, 0, 0.7);
+  
+}
+
+.floating-button { max-width: calc(100% - 40px); }
+html {
+  overflow-x: hidden;
+  margin: 0;
+}
+body {
+  padding: 20px;
+  margin: 0;
 }
 </style>
 <script>
